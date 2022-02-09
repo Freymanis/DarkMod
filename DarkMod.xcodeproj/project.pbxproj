@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA9C8DB027B30BDA00DFEB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C8DAF27B30BDA00DFEB1C /* AppDelegate.swift */; };
-		EA9C8DB227B30BDA00DFEB1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C8DB127B30BDA00DFEB1C /* SceneDelegate.swift */; };
 		EA9C8DB427B30BDA00DFEB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C8DB327B30BDA00DFEB1C /* ViewController.swift */; };
-		EA9C8DB727B30BDA00DFEB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9C8DB527B30BDA00DFEB1C /* Main.storyboard */; };
 		EA9C8DB927B30BDB00DFEB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9C8DB827B30BDB00DFEB1C /* Assets.xcassets */; };
 		EA9C8DBC27B30BDB00DFEB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9C8DBA27B30BDB00DFEB1C /* LaunchScreen.storyboard */; };
 		EA9C8DC727B30BDC00DFEB1C /* DarkModTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C8DC627B30BDC00DFEB1C /* DarkModTests.swift */; };
@@ -38,9 +36,7 @@
 /* Begin PBXFileReference section */
 		EA9C8DAC27B30BDA00DFEB1C /* DarkMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9C8DAF27B30BDA00DFEB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA9C8DB127B30BDA00DFEB1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA9C8DB327B30BDA00DFEB1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA9C8DB627B30BDA00DFEB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA9C8DB827B30BDB00DFEB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA9C8DBB27B30BDB00DFEB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA9C8DBD27B30BDB00DFEB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				EA9C8DAF27B30BDA00DFEB1C /* AppDelegate.swift */,
-				EA9C8DB127B30BDA00DFEB1C /* SceneDelegate.swift */,
 				EA9C8DB327B30BDA00DFEB1C /* ViewController.swift */,
-				EA9C8DB527B30BDA00DFEB1C /* Main.storyboard */,
 				EA9C8DB827B30BDB00DFEB1C /* Assets.xcassets */,
 				EA9C8DBA27B30BDB00DFEB1C /* LaunchScreen.storyboard */,
 				EA9C8DBD27B30BDB00DFEB1C /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				EA9C8DBC27B30BDB00DFEB1C /* LaunchScreen.storyboard in Resources */,
 				EA9C8DB927B30BDB00DFEB1C /* Assets.xcassets in Resources */,
-				EA9C8DB727B30BDA00DFEB1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				EA9C8DB427B30BDA00DFEB1C /* ViewController.swift in Sources */,
 				EA9C8DB027B30BDA00DFEB1C /* AppDelegate.swift in Sources */,
-				EA9C8DB227B30BDA00DFEB1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA9C8DB527B30BDA00DFEB1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA9C8DB627B30BDA00DFEB1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA9C8DBA27B30BDB00DFEB1C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +428,6 @@
 				INFOPLIST_FILE = DarkMod/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +455,6 @@
 				INFOPLIST_FILE = DarkMod/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
